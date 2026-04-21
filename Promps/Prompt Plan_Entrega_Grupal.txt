@@ -1,0 +1,43 @@
+Actúa como un Project Manager y Tech Lead. Necesito organizar la entrega de un proyecto universitario grupal. El proyecto es una API REST desarrollada con FastAPI, SQLModel y PostgreSQL, estructurada en los siguientes módulos: main.py, uow, models, schemas, services y routers.
+
+Contexto del Entorno:
+El código fuente de este proyecto se encuentra íntegramente dentro de la carpeta backend. Por favor, tené en cuenta esta ubicación exacta al generar las instrucciones de consola y al referenciar las rutas de los archivos.
+
+Somos un equipo de 4 integrantes: Federico Frankenberger, Emilia Barros, Miguel Barrera y Guadalupe Maricchiolo.
+
+Ya tenemos el código completo, pero necesitamos simular que lo desarrollamos de forma colaborativa. Por lo tanto, necesito que generes un plan de acción dividido en tres grandes entregables:
+
+1. Estrategia de Control de Versiones (Git/GitHub):
+
+Dividí la subida del código en 4 partes lógicas secuenciales, asignando una parte a cada integrante (ej. setup/DB, modelos, lógica/servicios, y finalmente endpoints).
+
+Detallá el orden exacto en el que debemos hacer los commits y pushes a la rama principal (main/master), indicando cómo ubicarse en la carpeta backend.
+
+Escribí los mensajes de commit exactos que debe usar cada integrante (en español, claros y profesionales) para que el historial del repositorio se vea como un trabajo en equipo real y coordinado.
+
+2. Guion para el Video de Presentación:
+
+El parcial exige un video demostrativo cuya duración no debe superar los 10 minutos en total.
+
+Necesito un guion estructurado donde los 4 integrantes hablen y expliquen exactamente la parte del código que les tocó "subir" en la estrategia de Git.
+
+Incluí indicaciones de qué debería estar mostrando cada persona en pantalla mientras habla (ej. "Mostrar el archivo backend/models/db_models.py", "Mostrar la tabla en pgAdmin", "Mostrar la terminal ejecutando el servidor").
+
+Agregá una breve introducción y un cierre.
+
+Calculá tiempos estimados para cada intervención para no pasarnos de los 10 minutos.
+
+3. Generación de Archivos:
+
+Al finalizar, generá un archivo en formato PDF y uno en formato Word (.docx) (o texto enriquecido) que contengan toda esta planificación y el guion completo.
+
+Asegurate de guardar estos archivos generados directamente dentro de la carpeta backend para que el equipo pueda consultarlos offline junto con el código base.
+
+
+Restricciones:
+
+Todo el texto debe estar en español.
+
+El tono del guion debe ser profesional, académico pero natural.
+
+Las partes asignadas deben tener sentido técnico (el flujo debe ser lógico de abajo hacia arriba en la arquitectura).

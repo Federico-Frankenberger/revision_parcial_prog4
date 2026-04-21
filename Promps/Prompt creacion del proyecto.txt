@@ -1,0 +1,33 @@
+Actúa como un desarrollador backend. Necesito resolver únicamente las consignas de backend detalladas en el archivo adjunto "Parcial_1.pdf".
+
+Para el desarrollo, utilizá como base obligatoria el diagrama UML del archivo adjunto "uml_primer_parcial". Además, revisá los archivos de la carpeta "Contexto" adjunta para usar como referencia del estilo de código que venimos manejando.
+
+Especificaciones Técnicas y de Arquitectura:
+
+Stack: Python, FastAPI, SQLModel y PostgreSQL.
+
+Estructura de proyecto: Organizar el código por módulos en los siguientes directorios: routers, schemas, services, models, y uow (Unit of Work).
+
+Requisitos Estrictos de Implementación:
+
+Base de Datos: Los modelos deben estar definidos con SQLModel, implementando correctamente las relaciones 1:N y N:N usando Relationship y back_populates.
+
+Endpoints: Implementar operaciones CRUD completas. Utilizar Annotated, Query y Path para validaciones, filtros o paginación.
+
+Respuestas y Seguridad: Segregar modelos de entrada/salida utilizando response_model. Manejar las excepciones con HTTPException y devolver los códigos de estado HTTP correctos (ej: 201, 204, 404).
+
+Restricciones de Código y Nivel Educativo:
+
+Idioma y Nomenclatura: Todo el código, comentarios y nombres deben estar en español. Nombres simples, descriptivos y directos.
+
+Nivel de complejidad: La solución está dirigida a un alumno de la materia Programación IV de una tecnicatura. Mantener el patrón uow lo más simple, directo y monolítico posible. No utilices abstracciones profundas ni herramientas rebuscadas fuera de lo solicitado.
+
+Alcance: Implementá estricta y únicamente lo necesario para cumplir con el checklist del backend, sin agregar funcionalidades extra. El código debe priorizar buenas prácticas de Clean Code: prolijo, mantenible y muy fácil de leer.
+
+Entregables Esperados:
+
+El archivo requirements.txt actualizado.
+
+Un esquema en texto mostrando la estructura de carpetas y archivos.
+
+El código completo para cada archivo, respetando la separación de responsabilidades solicitada.

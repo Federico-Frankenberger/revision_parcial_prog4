@@ -1,0 +1,28 @@
+Actúa como un Technical Lead y Desarrollador Backend. Necesito que redactes un "Manual Técnico y Arquitectura del Backend" para consumo interno de mi equipo, basándote en los requerimientos del archivo adjunto "Parcial_1.pdf".
+
+El proyecto es una API REST desarrollada con el siguiente stack: Python 3.10+, FastAPI, SQLModel y PostgreSQL. Toda la solución está pensada con un enfoque monolítico, priorizando un código limpio, mantenible y sin complejidades innecesarias.
+
+Estructura esperada del Documento:
+Por favor, estructurá la respuesta de forma clara con títulos, subtítulos y viñetas para que pueda exportarlo directamente a un documento de texto (Word o PDF). Dividí el contenido en las siguientes secciones:
+
+Visión General y Arquitectura Monolítica: Explicá el patrón de diseño utilizado y la decisión de estructurar el proyecto en capas o módulos para asegurar el principio de responsabilidad única.
+
+Estructura del Proyecto: Explicá brevemente, pero con detalle técnico, qué hace cada capa del código base: routers (controladores), services (lógica de negocio aislada), schemas (validación de entrada/salida), models (entidades de base de datos) y uow (gestión de la sesión de base de datos).
+
+Guía de Configuración y Despliegue Local:
+
+Requisitos previos en la máquina del desarrollador.
+
+Paso a paso: Creación de entorno virtual (venv), instalación de dependencias, configuración de la base de datos PostgreSQL local y el comando para levantar el servidor en modo desarrollo.
+
+Flujo de Datos Interno (Request Lifecycle): Explicá paso a paso cómo viaja la información dentro del backend cuando se recibe una petición HTTP. Tomá como ejemplo la creación de un recurso (ej. POST /productos). Describí el viaje: entrada por el router, validación Pydantic en schemas, procesamiento en services, persistencia mediante SQLModel usando la sesión del uow, y respuesta formateada con response_model.
+
+Pruebas de la API: Instrucciones para acceder a Swagger UI (/docs) y cómo el equipo debe probar los endpoints y visualizar el manejo de errores (HTTPExceptions).
+
+Restricciones:
+
+Todo el texto debe estar en español.
+
+El tono debe ser formal, técnico, instructivo y profesional.
+
+No escribas bloques de código fuente; enfocate puramente en la explicación de la arquitectura, el flujo de responsabilidades y los pasos para levantar el entorno.
